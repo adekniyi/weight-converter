@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.header h1{
+    margin-bottom: 10px;
+}
+.header input {
+    width: 45%;
+    height: 35px;
+    border: 1px solid grey;
+    padding-left: 10px;
+}
+
+.gram,.kgram,.ounces{
+    padding: 20px 0 20px 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 50%;
+    border-radius: 5px;
+}
+.gram h5,.kgram h5,.ounces h5{
+    margin-bottom: 10px;
+}
+
+.gram{
+    background-color: rgb(38, 38, 255);
+    color: white;
+}
+.kgram{
+    background-color: rgb(5, 223, 5);
+    color: white;
+}
+.ounces{
+    background-color: rgb(253, 44, 44);
+    color: white;
+}
+
+
+
+
+@media screen and (max-width:480px){
+    .header input {
+        width: 80%;
+    }
+    .gram,.kgram,.ounces{
+        width: 90%;
+    }
+}
